@@ -1,0 +1,24 @@
+# Ігнорування стандартних файлів
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+
+# Логи та тимчасові файли
+logs/
+*.log
+debug.log
+*.tmp
+
+# Файли налаштувань IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Системні файли (Windows / macOS)
+.DS_Store
+Thumbs.db
+
+# Віртуальне середовище Python
+venv/
+.env/
